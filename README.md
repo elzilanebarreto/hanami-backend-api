@@ -1,5 +1,4 @@
-# 🌸 Projeto Hanami Backend
-API de Análise de Dados — Documentação Técnica
+# 🌸 Projeto Hanami Backend - API de Análise de Dados 
 
 Este repositório contém o backend do Projeto Hanami, uma API corporativa para processamento de arquivos CSV/XLSX, persistência de dados e geração de relatórios analíticos.
 O foco deste projeto é padronização, reprodutibilidade e escalabilidade, permitindo que qualquer desenvolvedor consiga iniciar o ambiente sem atritos.
@@ -63,7 +62,6 @@ mvn spring-boot:run
            ├── service/         # Regras de negócio
            ├── repository/      # Persistência (JPA)
            ├── model/           # Entidades principais
-           └── config/          # Configurações globais
  └── resources/
       ├── application.properties
       └── exemplos/             # Exemplos de arquivos CSV/XLSX
